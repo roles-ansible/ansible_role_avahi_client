@@ -2,5 +2,9 @@
 # deploy custom /etc/nsswitch.conf config
 avahi__configure_nsswitch: true
 
+# mdns resolver name
+avahi__mdns_name: 'mdns'
+avahi__mdns_minimal_name: 'mdns_minimal'
+
 # should we do a version check? (recomended)
 submodules_versioncheck: false

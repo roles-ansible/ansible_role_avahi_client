@@ -1,4 +1,4 @@
 ---
 # versionscheck
-playbook_version_number: 5
+playbook_version_number: 6
 playbook_version_path: 'do1jlr.avahi_client.version'

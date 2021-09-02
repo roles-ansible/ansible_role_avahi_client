@@ -1,5 +1,3 @@
 ---
 avahi_packages:
   - mdns-scan
-
-avahi__mdns_name: 'mdns4_minimal'

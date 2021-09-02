@@ -12,12 +12,12 @@ gshadow:        files
 
 publickey:      files
 
-hosts:          files mymachines myhostname {{ avahi__mdns_name }} [NOTFOUND=return] resolve [!UNAVAIL=return] dns
-networks:       nis [NOTFOUND=return] files
+hosts:          files mymachines myhostname {{ avahi__mdns_minnimal_name }} [NOTFOUND=return] resolve [!UNAVAIL=return] dns {{ avahi__mdns_name }}
+networks:       files
 
-protocols:      nis [NOTFOUND=return] db [NOTFOUND=return] files
-services:       nis [NOTFOUND=return] db [NOTFOUND=return] files
-ethers:         nis [NOTFOUND=return] db [NOTFOUND=return] files
-rpc:            nis [NOTFOUND=return] db [NOTFOUND=return] files
+protocols:      db [NOTFOUND=return] files
+services:       db [NOTFOUND=return] files
+ethers:         db [NOTFOUND=return] files
+rpc:            db [NOTFOUND=return] files
 
-netgroup:       nis [NOTFOUND=return] files
+netgroup:       files
