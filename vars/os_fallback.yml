@@ -1,3 +1,4 @@
 ---
 avahi_client__packages:
+  - avahi
 # - 'mdns-scan'
