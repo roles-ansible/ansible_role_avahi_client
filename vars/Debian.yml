@@ -1,5 +1,8 @@
 ---
-avahi_packages:
+avahi_client__packages:
   - 'avahi-discover'
   - 'avahi-utils'
-  - 'mdns-scan'
+  - 'libnss-mdns'
+# - 'avahi-autoipd'
+# - 'avahi-dnsconfd'
+# - 'mdns-scan'

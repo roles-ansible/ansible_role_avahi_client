@@ -7,8 +7,8 @@
   when:
     - ansible_pkg_mgr == "apt"
 
-- name: install avahi packages
+- name: Install Avahi packages
   become: true
   ansible.builtin.package:
-    name: "{{ avahi_packages }}"
+    name: "{{ avahi_client__packages }}"
     state: present
