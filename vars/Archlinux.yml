@@ -1,3 +1,5 @@
 ---
 avahi_packages:
   - avahi
+  - mdns-scan
+  - nss-mdns
