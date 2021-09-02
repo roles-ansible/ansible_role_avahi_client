@@ -12,7 +12,7 @@ gshadow:        files
 
 publickey:      files
 
-hosts:          files mymachines myhostname {{ avahi_client__mdns_minimal_name }} [NOTFOUND=return] resolve [!UNAVAIL=return] dns {{ avahi_client__mdns_name }}
+hosts:          files {{ avahi_client__mdns_minimal_name }} [NOTFOUND=return] resolve [!UNAVAIL=return] dns {{ avahi_client__mdns_name }} myhostname
 networks:       files
 
 protocols:      db [NOTFOUND=return] files
