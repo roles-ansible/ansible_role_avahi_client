@@ -1,5 +1,5 @@
 ---
-- name: deploy /etc/nsswitch.conf
+- name: Deploy '/etc/nsswitch.conf'
   become: true
   ansible.builtin.template:
     src: 'templates/nsswitch.conf.j2'

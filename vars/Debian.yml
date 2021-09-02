@@ -1,5 +1,5 @@
 ---
-avahi_packages:
+avahi_client__packages:
   - 'avahi-discover'
   - 'avahi-utils'
   - 'mdns-scan'

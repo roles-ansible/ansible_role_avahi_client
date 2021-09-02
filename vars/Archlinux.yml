@@ -1,5 +1,5 @@
 ---
-avahi_packages:
   - avahi
   - mdns-scan
   - nss-mdns
+avahi_client__packages:
