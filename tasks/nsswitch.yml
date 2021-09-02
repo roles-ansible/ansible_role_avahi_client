@@ -1,0 +1,9 @@
+---
+- name: deploy /etc/nsswitch.conf
+  become: true
+  ansible.builtin.template:
+    src: 'templates/nsswitch.conf.j2'
+    dest: '/etc/nsswitch.conf'
+    owner: 'root'
+    group: 'root'
+    mode: 0644

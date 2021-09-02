@@ -3,3 +3,5 @@ avahi_packages:
   - avahi
   - mdns-scan
   - nss-mdns
+
+avahi__mdns_name: 'mdns_minimal'

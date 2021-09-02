@@ -11,3 +11,7 @@
 
 - name: install mdns requirements
   ansible.builtin.include_tasks: install.yml
+
+- name: configure /etc/nsswitch.conf
+  ansible.builtin.include_tasks: nsswitch.yml
+  when: avahi__configure_nsswitch | bool

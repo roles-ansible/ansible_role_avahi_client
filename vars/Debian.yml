@@ -3,3 +3,5 @@ avahi_packages:
   - 'avahi-discover'
   - 'avahi-utils'
   - 'mdns-scan'
+
+avahi__mdns_name: 'mdns4_minimal'
