@@ -1,17 +1,17 @@
 ---
-- name: run optional versionscheck
+- name: Run optional versionscheck
   ansible.builtin.include_tasks: versioncheck.yml
   when: submodules_versioncheck|bool
 
-- name: gather os specific variables
+- name: Gather os specific variables
   ansible.builtin.include_vars: "{{ item }}"
   with_first_found:
     - "vars/{{ ansible_os_family }}.yml"
     - "vars/os_fallback.yml"
 
-- name: install mdns requirements
+- name: Install mdns requirements
   ansible.builtin.include_tasks: install.yml
 
-- name: configure /etc/nsswitch.conf
+- name: Configure /etc/nsswitch.conf
   ansible.builtin.include_tasks: nsswitch.yml
   when: avahi_client__configure_nsswitch | bool

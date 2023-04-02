@@ -1,5 +1,8 @@
-[![Galaxy](https://github.com/roles-ansible/ansible_role_avahi_client/raw/main/.github/galaxy.svg)](https://galaxy.ansible.com/do1jlr/avahi_client)
-[![License](https://github.com/roles-ansible/ansible_role_avahi_client/raw/main/.github/license.svg)](https://github.com/roles-ansible/ansible_role_avahi_client/blob/main/LICENSE)
+http://localhost:5000/svg/l3d.avahi_client.svg
+
+[![Ansible Galaxy](https://ansible.l3d.space/svg/l3d.avahi_client.svg)](https://galaxy.ansible.com/l3d/avahi_client)
+[![BSD-3 Clause](https://ansible.l3d.space/svg/l3d.avahi_client_license.svg)](LICENSE)
+[![Maintainance](https://ansible.l3d.space/svg/l3d.avahi_client_maintainance.svg)](https://ansible.l3d.space/#l3d.avahi_client)
 
  ansible role avahi_client
 ===========================
