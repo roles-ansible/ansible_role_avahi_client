@@ -2,21 +2,25 @@
 galaxy_info:
   role_name: avahi_client
   author: do1jlr
-  description: Avahi provides local hostname resolution using a "hostname.local" naming scheme.
+  description: Avahi provides local hostname resolution using the ".local" MDNS Domain.
   license: "MIT"
-  min_ansible_version: 2.11
-  github_branch: main
+  min_ansible_version: "2.12"
   platforms:
-    - name: Archlinux
-      versions: all
+    - name: ArchLinux
+      versions: ['all']
     - name: Debian
-      versions: all
+      versions: ['all']
     - name: Ubuntu
-      versions: all
+      versions: ['all']
+    - name: EL
+      versions: ['all']
+    - name: Fedora
+      versions: ['all']
   galaxy_tags:
     - avahi
     - client
     - local
     - mdns
     - bonjour
+    - linux
 dependencies: []
