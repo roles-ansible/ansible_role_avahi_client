@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   role_name: avahi_client
-  author: do1jlr
+  author: l3d
   description: Avahi provides local hostname resolution using the ".local" MDNS Domain.
   license: "MIT"
   min_ansible_version: "2.12"
