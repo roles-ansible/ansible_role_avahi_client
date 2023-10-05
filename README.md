@@ -1,4 +1,4 @@
-[![Ansible Galaxy](https://ansible.l3d.space/svg/l3d.avahi_client.svg)](https://galaxy.ansible.com/l3d/avahi_client)
+[![Ansible Galaxy](https://ansible.l3d.space/svg/l3d.avahi_client.svg)](https://galaxy.ansible.com/ui/standalone/roles/l3d/avahi_client/)
 [![MIT License](https://ansible.l3d.space/svg/l3d.avahi_client_license.svg)](LICENSE)
 [![Maintainance](https://ansible.l3d.space/svg/l3d.avahi_client_maintainance.svg)](https://ansible.l3d.space/#l3d.avahi_client)
 
@@ -34,7 +34,7 @@ From the documentation of [nss-mdns](https://github.com/lathiat/nss-mdns)
 --------------------
 This role is part of the ``l3d.avahi`` Ansible Collection.
 
-[![collection l3d.avahi](https://ansible.l3d.space/svg/l3d.avahi_ansible-collection_collection.svg)](https://galaxy.ansible.com/l3d/avahi)
+[![collection l3d.avahi](https://ansible.l3d.space/svg/l3d.avahi_ansible-collection_collection.svg)](https://galaxy.ansible.com/ui/repo/published/l3d/avahi/)
 [![Maintainance](https://ansible.l3d.space/svg/l3d.avahi_maintainance_collection.svg)](https://ansible.l3d.space/#l3d.avahi)
 [![License](https://ansible.l3d.space/svg/l3d.avahi_license_collection.svg)](LICENSE)
 
