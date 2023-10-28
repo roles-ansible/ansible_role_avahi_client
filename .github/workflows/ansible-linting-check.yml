@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Checkout git repo'
-        uses: actions/checkout@v4.1.1
+      - name: Checkout git repo
+        uses: actions/checkout@v4
         with:
           submodules: true
           fetch-depth: 0
