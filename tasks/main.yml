@@ -8,7 +8,7 @@
   ansible.builtin.include_vars:
     file: "{{ item }}"
   with_first_found:
-    - "vars/{{ ansible_os_family }}.yml"
+    - "vars/{{ ansible_facts['os_family'] }}.yml"
     - "vars/os_fallback.yml"
 
 - name: Install MDNS requirements
